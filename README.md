@@ -30,6 +30,9 @@ vendor/bin/mate serve
 composer require --dev symfony/ai-symfony-mate-extension
 composer require --dev symfony/ai-monolog-mate-extension
 
+# Install community extensions (optional)
+composer require --dev matesofmate/phpunit-extension
+
 # Discover available tools
 vendor/bin/mate discover
 
@@ -98,6 +101,7 @@ Community-built extensions that add framework-specific, CMS-specific, or domain-
 
 ### Libraries
 
+- [matesofmate/phpunit-extension](https://packagist.org/packages/matesofmate/phpunit-extension) - PHPUnit testing tools and test introspection
 - [symfony/ai-monolog-mate-extension](https://packagist.org/packages/symfony/ai-monolog-mate-extension) - Official Monolog logging integration for log analysis and debugging
 
 <!-- Want to add your library extension? Examples we'd love to see:
