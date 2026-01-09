@@ -101,6 +101,7 @@ Community-built extensions that add framework-specific, CMS-specific, or domain-
 
 ### Libraries
 
+- [matesofmate/phpstan-extension](https://packagist.org/packages/matesofmate/phpstan-extension) - PHPStan static analysis tools with token-optimized output
 - [matesofmate/phpunit-extension](https://packagist.org/packages/matesofmate/phpunit-extension) - PHPUnit testing tools and test introspection
 - [symfony/ai-monolog-mate-extension](https://packagist.org/packages/symfony/ai-monolog-mate-extension) - Official Monolog logging integration for log analysis and debugging
 
