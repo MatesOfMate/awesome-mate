@@ -49,6 +49,9 @@ vendor/bin/mate discover
   - [CMS](#cms)
   - [Frameworks](#frameworks)
   - [Libraries](#libraries)
+- [Development Tools](#development-tools)
+  - [Testing](#testing)
+  - [Static Analysis](#static-analysis)
 - [Extension Development](#extension-development)
 - [Tools & Integrations](#tools--integrations)
   - [MCP-Compatible AI Assistants](#mcp-compatible-ai-assistants)
@@ -101,8 +104,6 @@ Community-built extensions that add framework-specific, CMS-specific, or domain-
 
 ### Libraries
 
-- [matesofmate/phpstan-extension](https://packagist.org/packages/matesofmate/phpstan-extension) - PHPStan static analysis tools with token-optimized output
-- [matesofmate/phpunit-extension](https://packagist.org/packages/matesofmate/phpunit-extension) - PHPUnit testing tools and test introspection
 - [symfony/ai-monolog-mate-extension](https://packagist.org/packages/symfony/ai-monolog-mate-extension) - Official Monolog logging integration for log analysis and debugging
 
 <!-- Want to add your library extension? Examples we'd love to see:
@@ -110,6 +111,33 @@ Community-built extensions that add framework-specific, CMS-specific, or domain-
 - Messenger - Queue, handler, and transport introspection
 - Workflow - State machine and workflow analysis
 - Validator - Validation constraint discovery
+-->
+
+---
+
+## Development Tools
+
+MCP extensions for testing, static analysis, and code quality tools.
+
+### Testing
+
+- [matesofmate/phpunit-extension](https://packagist.org/packages/matesofmate/phpunit-extension) - PHPUnit testing tools with test discovery and token-optimized output
+
+<!-- Want to add your testing tool extension? Examples we'd love to see:
+- Behat - BDD testing and scenario tools
+- Codeception - Acceptance, functional, and unit testing
+- PHPSpec - Specification-based testing
+-->
+
+### Static Analysis
+
+- [matesofmate/phpstan-extension](https://packagist.org/packages/matesofmate/phpstan-extension) - PHPStan static analysis with error reporting and token-optimized output
+
+<!-- Want to add your static analysis extension? Examples we'd love to see:
+- Psalm - Alternative static analysis tool
+- PHP CS Fixer - Code style analysis and fixing
+- Rector - Automated refactoring and modernization
+- PHP_CodeSniffer - Code standards checking
 -->
 
 ---
