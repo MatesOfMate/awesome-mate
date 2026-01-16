@@ -52,6 +52,7 @@ vendor/bin/mate discover
 - [Development Tools](#development-tools)
   - [Testing](#testing)
   - [Static Analysis](#static-analysis)
+  - [Dependency Management](#dependency-management)
 - [Extension Development](#extension-development)
 - [Tools & Integrations](#tools--integrations)
   - [MCP-Compatible AI Assistants](#mcp-compatible-ai-assistants)
@@ -138,6 +139,15 @@ MCP extensions for testing, static analysis, and code quality tools.
 - PHP CS Fixer - Code style analysis and fixing
 - Rector - Automated refactoring and modernization
 - PHP_CodeSniffer - Code standards checking
+-->
+
+### Dependency Management
+
+- [matesofmate/composer-extension](https://packagist.org/packages/matesofmate/composer-extension) - Composer dependency tools with why/why-not analysis and token-optimized output
+
+<!-- Want to add your dependency management extension? Examples we'd love to see:
+- Private Packagist - Private package repository integration
+- Security Checker - Dependency vulnerability scanning
 -->
 
 ---
