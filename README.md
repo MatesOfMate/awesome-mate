@@ -23,6 +23,9 @@
 # Install Symfony AI Mate
 composer require --dev symfony/ai-mate
 
+# Initialize project-local Mate files
+vendor/bin/mate init
+
 # Start the MCP server
 vendor/bin/mate serve
 
@@ -33,12 +36,14 @@ composer require --dev symfony/ai-monolog-mate-extension
 # Install community extensions (optional)
 composer require --dev matesofmate/phpunit-extension
 
-# Discover available tools
+# Refresh discovery artifacts if needed
 vendor/bin/mate discover
 
 # Configure your AI assistant to connect to the MCP server
 # See Integration Guide: https://symfony.com/doc/current/ai/components/mate/integration.html
 ```
+
+In current AI Mate setups, extension discovery is handled automatically after Composer install and update. For Codex, use the generated `./bin/codex` wrapper after `mate init`.
 
 ---
 
