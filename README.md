@@ -84,7 +84,7 @@ In current AI Mate setups, extension discovery is handled automatically after Co
 
 ## Extensions
 
-Community-built extensions that add framework-specific, CMS-specific, or domain-specific tools and resources.
+Community-built Symfony AI Mate extensions that add framework-specific, CMS-specific, or domain-specific tools and resources.
 
 ### CMS
 
@@ -110,6 +110,7 @@ Community-built extensions that add framework-specific, CMS-specific, or domain-
 
 ### Libraries
 
+- [ineersa/database-extension](https://packagist.org/packages/ineersa/database-extension) - Database extension for Symfony AI Mate with MCP tools and resources for database workflows
 - [symfony/ai-monolog-mate-extension](https://packagist.org/packages/symfony/ai-monolog-mate-extension) - Official Monolog logging integration for log analysis and debugging
 
 <!-- Want to add your library extension? Examples we'd love to see:
