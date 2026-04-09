@@ -88,10 +88,9 @@ Community-built Symfony AI Mate extensions that add framework-specific, CMS-spec
 
 ### CMS
 
-*No extensions yet. Want to contribute? Check out the [extension-template](https://github.com/matesofmate/extension-template)!*
+- [sulu/sulu-mate-extension](https://github.com/sulu/sulu-mate-extension) - Sulu CMS tools for AI-assisted content management workflows
 
 <!-- Want to add your CMS extension? Examples we'd love to see:
-- Sulu CMS - Content types, webspaces, and admin introspection
 - WordPress integration
 - Drupal extension
 - TYPO3 tools
