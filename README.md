@@ -148,7 +148,7 @@ MCP extensions for testing, static analysis, and code quality tools.
 
 ### Dependency Management
 
-- [matesofmate/composer-extension](https://packagist.org/packages/matesofmate/composer-extension) - Composer dependency tools with why/why-not analysis and token-optimized output
+- [matesofmate/composer-extension](https://packagist.org/packages/matesofmate/composer-extension) - Composer dependency tools with package explanation workflows and token-optimized output
 
 <!-- Want to add your dependency management extension? Examples we'd love to see:
 - Private Packagist - Private package repository integration
