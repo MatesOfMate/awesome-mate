@@ -72,6 +72,7 @@ In current AI Mate setups, extension discovery is handled automatically after Co
 
 ## Official Resources
 
+- [Symfony AI](https://ai.symfony.com/) - Official landing page for the Symfony AI initiative
 - [symfony/ai-mate](https://github.com/symfony/ai-mate) - Official MCP server implementation
 - [Symfony AI Documentation](https://symfony.com/doc/current/ai/index.html) - Complete guide to Symfony AI components
 - [AI Mate Component Guide](https://symfony.com/doc/current/ai/components/mate.html) - Detailed Mate documentation
@@ -195,10 +196,13 @@ Core MCP protocol resources and tools:
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Debug and test MCP servers during development
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Build MCP servers and clients in TypeScript
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Build MCP servers and clients in Python
+- [Symfony AI Mate on PulseMCP](https://www.pulsemcp.com/servers/symfony-ai-mate) - MCP server registry listing with install and usage details
 
 ---
 
 ## Articles & Tutorials
+
+- [Symfony Mate: Give Your AI Assistant Eyes Into Your Application](https://github.com/wachterjohannes/symfony-mate-berlin) - SymfonyLive Berlin 2026 talk with slides and an N+1 profiler demo
 
 *Know a great article? [Submit a PR](https://github.com/matesofmate/awesome-mate/pulls)!*
 
@@ -211,6 +215,8 @@ Core MCP protocol resources and tools:
 ---
 
 ## Videos
+
+- [Un agent IA qui connaît VRAIMENT votre projet Symfony](https://www.youtube.com/watch?v=pI2rxNkqImw) - French walkthrough demonstrating Symfony AI Mate with Claude Code, Cursor, and JetBrains AI
 
 *Know a great video? [Submit a PR](https://github.com/matesofmate/awesome-mate/pulls)!*
 
