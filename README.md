@@ -202,6 +202,7 @@ Core MCP protocol resources and tools:
 
 ## Articles & Tutorials
 
+- [AI-Shortnews: Symfony UX Skills und AI Mate v0.6.0](https://d-schwenker.de/blog/ai-shortnews-symfony-ux-skills-und-ai-mate-v0-6-0) - Overview of Symfony UX Skills and AI Mate v0.6.0, with practical adoption guidance for teams using AI coding agents
 - [Symfony AI Mate with DDEV](https://blog.bitexpert.de/blog/symfony_ai_mate_ddev) - How to integrate Symfony AI Mate with DDEV, including setup and AI coding agent configuration
 - [Symfony Mate: Give Your AI Assistant Eyes Into Your Application](https://github.com/wachterjohannes/symfony-mate-berlin) - SymfonyLive Berlin 2026 talk with slides and an N+1 profiler demo
 
