@@ -206,6 +206,7 @@ Core MCP protocol resources and tools:
 - [Symfony AI Mate with DDEV](https://blog.bitexpert.de/blog/symfony_ai_mate_ddev) - How to integrate Symfony AI Mate with DDEV, including setup and AI coding agent configuration
 - [Symfony AI Mate: MCP Server für PHP 2026](https://nevercodealone.de/de/glossare/ki-tools-2026/symfony-ai-mate) - Comprehensive glossary entry covering setup, extensions, Vibe Coding workflows, and DSGVO-compliant usage
 - [SymfonyLive Berlin 2026: Was die AI-Talks für Ihre Projekte bedeuten](https://d-schwenker.de/blog/symfonylive-berlin-2026-was-die-ai-talks-fur-ihre-projekte-bedeuten) - Conference recap analyzing AI talks including Symfony AI, MCP, and AI Mate with adoption guidance
+- [Giving AI Assistants Eyes: Reflecting on My Symfony Mate Talk at SymfonyLive Berlin](https://sulu.io/blog/giving-ai-assistants-eyes-reflecting-on-my-symfony-mate-talk-at-symfonylive-berlin) - Post-conference reflection on the SymfonyLive Berlin 2026 Symfony Mate talk with key takeaways
 - [Symfony Mate: Give Your AI Assistant Eyes Into Your Application](https://github.com/wachterjohannes/symfony-mate-berlin) - SymfonyLive Berlin 2026 talk with slides and an N+1 profiler demo
 
 *Know a great article? [Submit a PR](https://github.com/matesofmate/awesome-mate/pulls)!*
