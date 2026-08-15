@@ -139,11 +139,11 @@ MCP extensions for testing, static analysis, and code quality tools.
 ### Static Analysis
 
 - [matesofmate/phpstan-extension](https://packagist.org/packages/matesofmate/phpstan-extension) - PHPStan static analysis with error reporting and token-optimized output
+- [matesofmate/rector-extension](https://packagist.org/packages/matesofmate/rector-extension) - Rector refactoring workflows with safe dry-run previews and explicit apply
 
 <!-- Want to add your static analysis extension? Examples we'd love to see:
 - Psalm - Alternative static analysis tool
 - PHP CS Fixer - Code style analysis and fixing
-- Rector - Automated refactoring and modernization
 - PHP_CodeSniffer - Code standards checking
 -->
 
