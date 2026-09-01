@@ -1,14 +1,14 @@
 # Awesome Mate [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome resources for [Symfony AI Mate](https://github.com/symfony/ai-mate) — the CLI that gives AI coding agents eyes into your PHP application.
+> A curated list of awesome resources for [Symfony Mate](https://github.com/symfony/ai-mate) — the CLI that gives AI coding agents eyes into your PHP application.
 
-## What is Symfony AI Mate?
+## What is Symfony Mate?
 
-**Symfony AI Mate** is a command-line tool that gives AI assistants deep knowledge about your PHP applications. It enables AI to understand your Symfony projects, analyze code, and provide contextual assistance.
+**Symfony Mate** is a command-line tool that gives AI assistants deep knowledge about your PHP applications. It enables AI to understand your Symfony projects, analyze code, and provide contextual assistance.
 
 Since `0.13`, Mate is a native CLI rather than an MCP server: agents call `vendor/bin/mate tools:call ...` directly, so any coding agent that can run a shell command can use it.
 
-**MatesOfMate** is the community hub for building and sharing extensions that add framework-specific, CMS-specific, or domain-specific capabilities to Symfony AI Mate.
+**MatesOfMate** is the community hub for building and sharing extensions that add framework-specific, CMS-specific, or domain-specific capabilities to Symfony Mate.
 
 ### What Can It Do?
 
@@ -22,7 +22,7 @@ Since `0.13`, Mate is a native CLI rather than an MCP server: agents call `vendo
 ## Quick Start
 
 ```bash
-# Install Symfony AI Mate
+# Install Symfony Mate
 composer require --dev symfony/ai-mate
 
 # Initialize project-local Mate files
@@ -74,7 +74,7 @@ Extension discovery is handled automatically after Composer install and update. 
 - [Symfony AI](https://ai.symfony.com/) - Official landing page for the Symfony AI initiative
 - [symfony/ai-mate](https://github.com/symfony/ai-mate) - Official Mate CLI implementation
 - [Symfony AI Documentation](https://symfony.com/doc/current/ai/index.html) - Complete guide to Symfony AI components
-- [AI Mate Component Guide](https://symfony.com/doc/current/ai/components/mate.html) - Detailed Mate documentation
+- [Mate Component Guide](https://symfony.com/doc/current/ai/components/mate.html) - Detailed Mate documentation
 - [Integration Guide](https://symfony.com/doc/current/ai/components/mate/integration.html) - Setup with Claude, JetBrains, and other AI coding agents
 - [Creating Extensions](https://symfony.com/doc/current/ai/components/mate/creating-extensions.html) - Build your own Mate extensions
 - [symfony/ai](https://github.com/symfony/ai) - Symfony AI components for embeddings, LLM integrations, and more
@@ -84,7 +84,7 @@ Extension discovery is handled automatically after Composer install and update. 
 
 ## Extensions
 
-Community-built Symfony AI Mate extensions that add framework-specific, CMS-specific, or domain-specific tools and resources.
+Community-built Symfony Mate extensions that add framework-specific, CMS-specific, or domain-specific tools and resources.
 
 ### CMS
 
@@ -109,7 +109,7 @@ Community-built Symfony AI Mate extensions that add framework-specific, CMS-spec
 
 ### Libraries
 
-- [ineersa/database-extension](https://packagist.org/packages/ineersa/database-extension) - Database extension for Symfony AI Mate with tools and resources for database workflows
+- [ineersa/database-extension](https://packagist.org/packages/ineersa/database-extension) - Database extension for Symfony Mate with tools and resources for database workflows
 - [symfony/ai-monolog-mate-extension](https://packagist.org/packages/symfony/ai-monolog-mate-extension) - Official Monolog logging integration for log analysis and debugging
 
 <!-- Want to add your library extension? Examples we'd love to see:
@@ -159,7 +159,7 @@ Extensions for testing, static analysis, and code quality tools.
 
 ## Extension Development
 
-Want to build your own Symfony AI Mate extension?
+Want to build your own Symfony Mate extension?
 
 ### Getting Started
 
@@ -206,8 +206,8 @@ Agents that can run `vendor/bin/mate` in your project:
 *Know a great article? [Submit a PR](https://github.com/matesofmate/awesome-mate/pulls)!*
 
 <!-- Example format:
-- [Getting Started with Symfony AI Mate](https://example.com) - Beginner's guide to AI-assisted PHP development
-- [Building Mate Extensions](https://example.com) - Tutorial on creating custom Symfony AI Mate extensions
+- [Getting Started with Symfony Mate](https://example.com) - Beginner's guide to AI-assisted PHP development
+- [Building Mate Extensions](https://example.com) - Tutorial on creating custom Symfony Mate extensions
 - [AI-Powered Symfony Development](https://example.com) - Advanced workflows and best practices
 -->
 
@@ -215,13 +215,13 @@ Agents that can run `vendor/bin/mate` in your project:
 
 ## Videos
 
-- [Un agent IA qui connaît VRAIMENT votre projet Symfony](https://www.youtube.com/watch?v=pI2rxNkqImw) - French walkthrough demonstrating Symfony AI Mate with Claude Code, Cursor, and JetBrains AI
+- [Un agent IA qui connaît VRAIMENT votre projet Symfony](https://www.youtube.com/watch?v=pI2rxNkqImw) - French walkthrough demonstrating Symfony Mate with Claude Code, Cursor, and JetBrains AI
 
 *Know a great video? [Submit a PR](https://github.com/matesofmate/awesome-mate/pulls)!*
 
 <!-- Example format:
 - [SymfonyCon 2025: AI-Powered Development](https://youtube.com/...) - Conference talk introducing Symfony AI
-- [Building with Symfony AI Mate](https://youtube.com/...) - Screencast demonstrating agent integration
+- [Building with Symfony Mate](https://youtube.com/...) - Screencast demonstrating agent integration
 - [Creating Mate Extensions](https://youtube.com/...) - Tutorial on extension development
 -->
 
@@ -229,7 +229,7 @@ Agents that can run `vendor/bin/mate` in your project:
 
 ## Community
 
-Connect with the Symfony AI Mate and MatesOfMate community:
+Connect with the Symfony Mate and MatesOfMate community:
 
 - 🐙 [MatesOfMate GitHub](https://github.com/matesofmate) - Browse extensions and contribute
 - 💼 [Symfony Slack #ai-initiative](https://symfony.com/slack) - Chat with the Symfony AI community

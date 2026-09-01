@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is **awesome-mate** - a curated list of resources for Symfony AI Mate and AI-assisted PHP development. It follows the [Awesome List](https://github.com/sindresorhus/awesome) format and standards.
+This is **awesome-mate** - a curated list of resources for Symfony Mate and AI-assisted PHP development. It follows the [Awesome List](https://github.com/sindresorhus/awesome) format and standards.
 
 ## Repository Type
 
@@ -24,7 +24,7 @@ awesome-mate/
 
 ### README.md Sections
 
-1. **Official Resources** - Symfony AI Mate core documentation and repositories
+1. **Official Resources** - Symfony Mate core documentation and repositories
 2. **Extensions** - MatesOfMate community extensions
    - CMS (Sulu, etc.)
    - Frameworks (API Platform, EasyAdmin, etc.)
@@ -73,7 +73,7 @@ Format for different resource types:
 
 Resources added must be:
 
-- **Relevant** - Directly related to Symfony AI Mate or AI-assisted PHP development
+- **Relevant** - Directly related to Symfony Mate or AI-assisted PHP development
 - **Maintained** - Actively maintained and currently working
 - **Documented** - Has clear documentation or instructions
 - **Useful** - Provides genuine value to the community
@@ -83,7 +83,7 @@ Resources added must be:
 ✅ Official Symfony AI documentation
 ✅ MatesOfMate community extensions
 ✅ AI coding agents that can run the Mate CLI
-✅ Tutorials about using Symfony AI Mate
+✅ Tutorials about using Symfony Mate
 ✅ Conference talks about AI-assisted development
 ✅ Tools that enhance the Mate extension workflow
 
@@ -176,7 +176,7 @@ Add AI coding agent section
 ```
 
 ```
-Expand Symfony AI Mate tutorials
+Expand Symfony Mate tutorials
 
 - Add getting started guides
 - Include integration tutorials
