@@ -4,21 +4,21 @@ Guidelines for AI agents helping curate the awesome-mate resource list.
 
 ## Agent Role
 
-When assisting with this repository, you are helping **curate and maintain a quality resource list** for the Symfony AI Mate and MCP community. This is not a code repository - it's a collection of links to valuable resources.
+When assisting with this repository, you are helping **curate and maintain a quality resource list** for the Symfony AI Mate community. This is not a code repository - it's a collection of links to valuable resources.
 
 ## Key Responsibilities
 
 ### 1. Resource Curation
 Help users find and add relevant resources:
 - Extensions for Symfony AI Mate
-- Tutorials and articles about MCP development
+- Tutorials and articles about AI-assisted PHP development
 - Tools and integrations
 - Community resources
 - Conference talks and videos
 
 ### 2. Quality Control
 Ensure all additions meet standards:
-- Resources must be relevant to Symfony AI Mate or MCP
+- Resources must be relevant to Symfony AI Mate or AI-assisted PHP development
 - Links must be working and accessible
 - Content must be actively maintained
 - Documentation must be clear
@@ -41,7 +41,7 @@ Help keep the list current:
 
 ### Relevance Check
 Ask yourself:
-- ✅ Is this about Symfony AI Mate, MCP, or AI-assisted PHP development?
+- ✅ Is this about Symfony AI Mate or AI-assisted PHP development?
 - ✅ Does it provide value to developers using these tools?
 - ✅ Is it specific enough to be useful?
 
@@ -74,8 +74,8 @@ Evaluate:
 
 ### Good Descriptions
 ✅ "Sulu CMS tools for content types, webspaces, and admin introspection"
-✅ "Desktop app with MCP support for AI conversations"
-✅ "Debug and test MCP servers during development"
+✅ "Coding agent that runs project commands from the terminal"
+✅ "Inspect and call Mate tools during extension development"
 
 ### Bad Descriptions
 ❌ "Amazing Sulu integration!" (subjective, non-specific)
@@ -97,7 +97,7 @@ When a MatesOfMate extension is published:
 ### Adding an Article or Tutorial
 
 1. Check if it's genuinely useful (not just generic content)
-2. Verify it's specifically about Symfony AI Mate or MCP
+2. Verify it's specifically about Symfony AI Mate or AI-assisted PHP development
 3. Format: `[Article Title](url) - Brief description`
 4. Add to "Articles & Tutorials" section
 5. Keep chronological (newest first) or alphabetical
@@ -111,7 +111,7 @@ When a MatesOfMate extension is published:
 
 ### Adding a Tool
 
-1. Verify it works with MCP or Symfony AI Mate
+1. Verify it works with Symfony AI Mate
 2. Check it's actively maintained
 3. Format: `[Tool Name](url) - What it does`
 4. Add to appropriate subsection under "Tools & Integrations"
@@ -147,7 +147,7 @@ When a MatesOfMate extension is published:
 
 When user wants to add something, ask:
 
-1. **Is it directly relevant?** "How does this relate to Symfony AI Mate or MCP?"
+1. **Is it directly relevant?** "How does this relate to Symfony AI Mate or AI-assisted PHP development?"
 2. **Is it maintained?** "When was the last update?"
 3. **Is it documented?** "Does it have clear instructions?"
 4. **Is it unique?** "How is this different from existing entries?"
@@ -166,21 +166,21 @@ MatesOfMate community extensions. Must be:
 - Actively maintained
 
 ### Tools & Integrations
-AI assistants, MCP tools, development utilities. Must:
-- Actually work with MCP or Symfony AI Mate
+AI coding agents and development utilities. Must:
+- Actually work with Symfony AI Mate
 - Be generally available (not private/internal)
 - Be documented
 
 ### Articles & Tutorials
 Written content teaching or explaining. Must:
-- Be specifically about Symfony AI Mate or MCP
+- Be specifically about Symfony AI Mate or AI-assisted PHP development
 - Provide genuine educational value
 - Be publicly accessible
 
 ### Videos
 Video content. Must:
 - Be publicly accessible
-- Be relevant to Symfony AI Mate or MCP
+- Be relevant to Symfony AI Mate or AI-assisted PHP development
 - Be of reasonable quality
 
 ### Community
@@ -212,11 +212,11 @@ Short descriptive summary
 
 ### Good Examples
 ```
-Add MCP ecosystem tools
+Add AI coding agent entries
 
-- Include debugging utilities
-- Add testing frameworks
-- Reference development tools
+- Include terminal-based agents
+- Add IDE integrations
+- Reference documentation links
 ```
 
 ```

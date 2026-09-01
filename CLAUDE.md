@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is **awesome-mate** - a curated list of resources for Symfony AI Mate and the MCP ecosystem. It follows the [Awesome List](https://github.com/sindresorhus/awesome) format and standards.
+This is **awesome-mate** - a curated list of resources for Symfony AI Mate and AI-assisted PHP development. It follows the [Awesome List](https://github.com/sindresorhus/awesome) format and standards.
 
 ## Repository Type
 
@@ -29,7 +29,7 @@ awesome-mate/
    - CMS (Sulu, etc.)
    - Frameworks (API Platform, EasyAdmin, etc.)
    - Libraries (Doctrine, Messenger, etc.)
-3. **Tools & Integrations** - AI assistants and MCP ecosystem tools
+3. **Tools & Integrations** - AI coding agents and related tooling
 4. **Articles & Tutorials** - Blog posts, guides, tutorials
 5. **Videos** - Conference talks, screencasts, demos
 6. **Community** - Discussion forums, chat channels
@@ -73,7 +73,7 @@ Format for different resource types:
 
 Resources added must be:
 
-- **Relevant** - Directly related to Symfony AI Mate, MCP, or AI-assisted PHP development
+- **Relevant** - Directly related to Symfony AI Mate or AI-assisted PHP development
 - **Maintained** - Actively maintained and currently working
 - **Documented** - Has clear documentation or instructions
 - **Useful** - Provides genuine value to the community
@@ -82,15 +82,14 @@ Resources added must be:
 
 ✅ Official Symfony AI documentation
 ✅ MatesOfMate community extensions
-✅ MCP protocol resources
-✅ AI assistant integrations supporting MCP
+✅ AI coding agents that can run the Mate CLI
 ✅ Tutorials about using Symfony AI Mate
 ✅ Conference talks about AI-assisted development
-✅ Tools that enhance MCP development workflow
+✅ Tools that enhance the Mate extension workflow
 
 ### What to Reject
 
-❌ Generic PHP resources not related to AI/MCP
+❌ Generic PHP resources not related to AI-assisted development
 ❌ Abandoned or unmaintained projects
 ❌ Duplicate entries
 ❌ Self-promotional content without value
@@ -169,11 +168,11 @@ Short summary (50 chars or less)
 
 **✅ Good Examples**:
 ```
-Add MCP debugging tools section
+Add AI coding agent section
 
-- Include MCP Inspector
-- Add server testing utilities
-- Reference development tools
+- Include terminal-based agents
+- Add IDE integrations
+- Reference documentation links
 ```
 
 ```

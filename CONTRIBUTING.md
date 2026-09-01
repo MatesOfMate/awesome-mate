@@ -16,7 +16,7 @@ Please ensure your pull request adheres to the following guidelines:
 
 Resources should be:
 
-- **Relevant** — directly related to Symfony AI Mate, MCP, or AI-assisted PHP development
+- **Relevant** — directly related to Symfony AI Mate or AI-assisted PHP development
 - **Maintained** — actively maintained and working
 - **Documented** — has clear documentation or instructions
 - **Useful** — provides value to the community

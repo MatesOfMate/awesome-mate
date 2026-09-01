@@ -1,10 +1,12 @@
 # Awesome Mate [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome resources for [Symfony AI Mate](https://github.com/symfony/ai-mate) — the MCP server for AI-powered PHP development.
+> A curated list of awesome resources for [Symfony AI Mate](https://github.com/symfony/ai-mate) — the CLI that gives AI coding agents eyes into your PHP application.
 
 ## What is Symfony AI Mate?
 
-**Symfony AI Mate** is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that gives AI assistants deep knowledge about your PHP applications. It enables AI to understand your Symfony projects, analyze code, and provide contextual assistance.
+**Symfony AI Mate** is a command-line tool that gives AI assistants deep knowledge about your PHP applications. It enables AI to understand your Symfony projects, analyze code, and provide contextual assistance.
+
+Since `0.13`, Mate is a native CLI rather than an MCP server: agents call `vendor/bin/mate tools:call ...` directly, so any coding agent that can run a shell command can use it.
 
 **MatesOfMate** is the community hub for building and sharing extensions that add framework-specific, CMS-specific, or domain-specific capabilities to Symfony AI Mate.
 
@@ -13,7 +15,7 @@
 - 🔍 **Code Understanding** - AI analyzes your application structure, entities, services, and configurations
 - 🛠️ **Smart Assistance** - Context-aware code generation, refactoring suggestions, and debugging help
 - 🔌 **Extensible** - Community extensions add support for frameworks, CMSs, and libraries
-- 🤖 **AI-Powered** - Works with Claude, JetBrains AI Assistant, and other MCP-compatible AI tools
+- 🤖 **AI-Powered** - Works with Claude Code, Codex, Cursor, JetBrains AI Assistant, and any agent that can run a command
 
 ---
 
@@ -26,9 +28,6 @@ composer require --dev symfony/ai-mate
 # Initialize project-local Mate files
 vendor/bin/mate init
 
-# Start the MCP server
-vendor/bin/mate serve
-
 # Install official extensions
 composer require --dev symfony/ai-symfony-mate-extension
 composer require --dev symfony/ai-monolog-mate-extension
@@ -39,11 +38,12 @@ composer require --dev matesofmate/phpunit-extension
 # Refresh discovery artifacts if needed
 vendor/bin/mate discover
 
-# Configure your AI assistant to connect to the MCP server
-# See Integration Guide: https://symfony.com/doc/current/ai/components/mate/integration.html
+# See what the agent can call
+vendor/bin/mate tools:list
+vendor/bin/mate tools:call phpunit-run --mode=summary
 ```
 
-In current AI Mate setups, extension discovery is handled automatically after Composer install and update. For Codex, use the generated `./bin/codex` wrapper after `mate init`.
+Extension discovery is handled automatically after Composer install and update. `mate init` and `mate discover` write the agent instructions (`AGENTS.md`, `mate/AGENT_INSTRUCTIONS.md`) that tell your coding agent which tools exist and when to use them.
 
 ---
 
@@ -60,8 +60,7 @@ In current AI Mate setups, extension discovery is handled automatically after Co
   - [Dependency Management](#dependency-management)
 - [Extension Development](#extension-development)
 - [Tools & Integrations](#tools--integrations)
-  - [MCP-Compatible AI Assistants](#mcp-compatible-ai-assistants)
-  - [MCP Ecosystem](#mcp-ecosystem)
+  - [AI Coding Agents](#ai-coding-agents)
   - [Related AI Tools](#related-ai-tools)
 - [Articles & Tutorials](#articles--tutorials)
 - [Videos](#videos)
@@ -73,11 +72,11 @@ In current AI Mate setups, extension discovery is handled automatically after Co
 ## Official Resources
 
 - [Symfony AI](https://ai.symfony.com/) - Official landing page for the Symfony AI initiative
-- [symfony/ai-mate](https://github.com/symfony/ai-mate) - Official MCP server implementation
+- [symfony/ai-mate](https://github.com/symfony/ai-mate) - Official Mate CLI implementation
 - [Symfony AI Documentation](https://symfony.com/doc/current/ai/index.html) - Complete guide to Symfony AI components
 - [AI Mate Component Guide](https://symfony.com/doc/current/ai/components/mate.html) - Detailed Mate documentation
-- [Integration Guide](https://symfony.com/doc/current/ai/components/mate/integration.html) - Setup with Claude, JetBrains, and other AI assistants
-- [Creating Extensions](https://symfony.com/doc/current/ai/components/mate/creating-extensions.html) - Build your own MCP extensions
+- [Integration Guide](https://symfony.com/doc/current/ai/components/mate/integration.html) - Setup with Claude, JetBrains, and other AI coding agents
+- [Creating Extensions](https://symfony.com/doc/current/ai/components/mate/creating-extensions.html) - Build your own Mate extensions
 - [symfony/ai](https://github.com/symfony/ai) - Symfony AI components for embeddings, LLM integrations, and more
 - [symfony/ai-demo](https://github.com/symfony/ai-demo) - Demo application showcasing Symfony AI capabilities
 
@@ -110,7 +109,7 @@ Community-built Symfony AI Mate extensions that add framework-specific, CMS-spec
 
 ### Libraries
 
-- [ineersa/database-extension](https://packagist.org/packages/ineersa/database-extension) - Database extension for Symfony AI Mate with MCP tools and resources for database workflows
+- [ineersa/database-extension](https://packagist.org/packages/ineersa/database-extension) - Database extension for Symfony AI Mate with tools and resources for database workflows
 - [symfony/ai-monolog-mate-extension](https://packagist.org/packages/symfony/ai-monolog-mate-extension) - Official Monolog logging integration for log analysis and debugging
 
 <!-- Want to add your library extension? Examples we'd love to see:
@@ -124,7 +123,7 @@ Community-built Symfony AI Mate extensions that add framework-specific, CMS-spec
 
 ## Development Tools
 
-MCP extensions for testing, static analysis, and code quality tools.
+Extensions for testing, static analysis, and code quality tools.
 
 ### Testing
 
@@ -178,25 +177,19 @@ Want to build your own Symfony AI Mate extension?
 
 ## Tools & Integrations
 
-### MCP-Compatible AI Assistants
+### AI Coding Agents
 
-AI assistants with native Model Context Protocol support:
+Agents that can run `vendor/bin/mate` in your project:
 
-- [Claude Desktop](https://claude.ai/download) - Desktop application with built-in MCP support for AI conversations
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Command-line interface for autonomous AI-powered development
-- [JetBrains AI Assistant](https://www.jetbrains.com/ai/) - IDE-integrated AI with MCP support for PhpStorm, IntelliJ, and more
+- [Codex](https://developers.openai.com/codex) - OpenAI's coding agent for the terminal and IDE
+- [Cursor](https://cursor.com/) - AI-first editor with an agent that runs project commands
+- [JetBrains AI Assistant](https://www.jetbrains.com/ai/) - IDE-integrated AI for PhpStorm, IntelliJ, and more
 
-### MCP Ecosystem
+### Related AI Tools
 
-Core MCP protocol resources and tools:
-
-- [Model Context Protocol](https://modelcontextprotocol.io/) - Official protocol specification and documentation
-- [MCP Specification](https://github.com/modelcontextprotocol/specification) - Technical specification on GitHub
-- [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official reference server implementations
-- [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Debug and test MCP servers during development
-- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Build MCP servers and clients in TypeScript
-- [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Build MCP servers and clients in Python
-- [Symfony AI Mate on PulseMCP](https://www.pulsemcp.com/servers/symfony-ai-mate) - MCP server registry listing with install and usage details
+- [Agent Skills](https://code.claude.com/docs/en/skills) - The skill format Mate installs into `.agents/skills` and `.claude/skills`
+- [AGENTS.md](https://agents.md/) - The agent instruction convention Mate writes into your project
 
 ---
 
@@ -214,7 +207,7 @@ Core MCP protocol resources and tools:
 
 <!-- Example format:
 - [Getting Started with Symfony AI Mate](https://example.com) - Beginner's guide to AI-assisted PHP development
-- [Building MCP Extensions](https://example.com) - Tutorial on creating custom Symfony AI Mate extensions
+- [Building Mate Extensions](https://example.com) - Tutorial on creating custom Symfony AI Mate extensions
 - [AI-Powered Symfony Development](https://example.com) - Advanced workflows and best practices
 -->
 
@@ -228,8 +221,8 @@ Core MCP protocol resources and tools:
 
 <!-- Example format:
 - [SymfonyCon 2025: AI-Powered Development](https://youtube.com/...) - Conference talk introducing Symfony AI
-- [Building with Symfony AI Mate](https://youtube.com/...) - Screencast demonstrating MCP integration
-- [Creating MCP Extensions](https://youtube.com/...) - Tutorial on extension development
+- [Building with Symfony AI Mate](https://youtube.com/...) - Screencast demonstrating agent integration
+- [Creating Mate Extensions](https://youtube.com/...) - Tutorial on extension development
 -->
 
 ---
