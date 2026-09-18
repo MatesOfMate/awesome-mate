@@ -79,6 +79,7 @@ Extension discovery is handled automatically after Composer install and update. 
 - [Creating Extensions](https://symfony.com/doc/current/ai/components/mate/creating-extensions.html) - Build your own Mate extensions
 - [symfony/ai](https://github.com/symfony/ai) - Symfony AI components for embeddings, LLM integrations, and more
 - [symfony/ai-demo](https://github.com/symfony/ai-demo) - Demo application showcasing Symfony AI capabilities
+- [Symfony AI Spotlight: Mate, an Agent's Way into Your Runtime](https://symfony.com/blog/symfony-ai-spotlight-mate-an-agent-s-way-into-your-runtime) - Official Symfony blog walkthrough of what Mate exposes, how agents discover it, and how to extend it
 
 ---
 
@@ -202,6 +203,12 @@ Agents that can run `vendor/bin/mate` in your project:
 - [Giving AI Assistants Eyes: Reflecting on My Symfony Mate Talk at SymfonyLive Berlin](https://sulu.io/blog/giving-ai-assistants-eyes-reflecting-on-my-symfony-mate-talk-at-symfonylive-berlin) - Post-conference reflection on the SymfonyLive Berlin 2026 Symfony Mate talk with key takeaways
 - [Symfony Mate: Give Your AI Assistant Eyes Into Your Application](https://github.com/wachterjohannes/symfony-mate-berlin) - SymfonyLive Berlin 2026 talk with slides and an N+1 profiler demo
 - [Giving AI Assistants Eyes: Highlights from the Symfony Mate Talk](https://www.linkedin.com/pulse/giving-ai-assistants-eyes-highlights-from-symfony-mate-wachter-yfuwe/) - LinkedIn article recapping the SymfonyLive Berlin Symfony Mate talk and key takeaways
+- [Kill the MCP](https://johanneswachter.dev/blog/kill-the-mcp/) - The argument for dropping Mate's MCP server in favor of a CLI plus Agent Skills
+- [Skills over MCP: shipping Symfony know-how with Mate](https://johanneswachter.dev/blog/skills-over-mcp/) - How Mate ships Symfony-specific judgment as Agent Skills, not just tools
+- [The last mile: distributing Agent Skills to real agents](https://johanneswachter.dev/blog/the-last-mile/) - What it actually takes to get a shipped skill discovered and used by a coding agent
+- [The hardest code to delete is your own](https://johanneswachter.dev/blog/the-hardest-code-to-delete/) - Reflecting on removing the MCP architecture he had built and championed for Mate
+- [The Mate Lab: does an agent actually use a dev tool?](https://johanneswachter.dev/blog/mate-lab/) - Measures whether Mate's CLI-plus-skills discovery layer actually gets used by an agent, the benchmark behind dropping Mate's MCP server
+- [killerwolf/mcp-profiler-bundle](https://github.com/killerwolf/mcp-profiler-bundle) - Hamdi Laadhari's MCP bundle for Symfony profiler access, built independently in March 2025 and deprecated in favor of Mate ([h4md1.fr](https://h4md1.fr))
 
 *Know a great article? [Submit a PR](https://github.com/matesofmate/awesome-mate/pulls)!*
 
