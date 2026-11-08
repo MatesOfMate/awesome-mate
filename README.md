@@ -13,7 +13,6 @@ Since `0.13`, Mate is a native CLI rather than an MCP server: agents call `vendo
 ### What Can It Do?
 
 - 🔍 **Code Understanding** - AI analyzes your application structure, entities, services, and configurations
-- 🛠️ **Smart Assistance** - Context-aware code generation, refactoring suggestions, and debugging help
 - 🔌 **Extensible** - Community extensions add support for frameworks, CMSs, and libraries
 - 🤖 **AI-Powered** - Works with Claude Code, Codex, Cursor, JetBrains AI Assistant, and any agent that can run a command
 
