@@ -51,6 +51,7 @@ Extension discovery is handled automatically after Composer install and update. 
 - [Official Resources](#official-resources)
 - [Extensions](#extensions)
   - [CMS](#cms)
+  - [E-commerce](#e-commerce)
   - [Frameworks](#frameworks)
   - [Libraries](#libraries)
 - [Development Tools](#development-tools)
@@ -88,12 +89,25 @@ Community-built Symfony Mate extensions that add framework-specific, CMS-specifi
 
 ### CMS
 
+- [konradmichalik/typo3-ai-mate](https://github.com/konradmichalik/typo3-ai-mate) - TYPO3 extension exposing TCA, pages, TypoScript, middlewares, logs, and request profiles
+- [open-dxp/mate-extension](https://github.com/open-dxp/mate-extension) - OpenDXP installation facts and skills for coding agents
+- [softspring/cms-mate-extension](https://github.com/softspring/cms-mate-extension) - Read-only content tools for the Armonic CMS
 - [sulu/sulu-mate-extension](https://github.com/sulu/sulu-mate-extension) - Sulu CMS tools for AI-assisted content management workflows
 
 <!-- Want to add your CMS extension? Examples we'd love to see:
 - WordPress integration
 - Drupal extension
-- TYPO3 tools
+-->
+
+### E-commerce
+
+- [dylvn/oro-mate-extension](https://github.com/Dylvn-oro/oro-mate-extension) - OroCommerce introspection tools
+- [sylius/sylius-mate-extension](https://github.com/Sylius/sylius-mate-extension) - Sylius runtime domain for coding agents: resources, hooks, grids, routes, services, plus skills
+- [sylius/sylius-ai-dev-tools](https://github.com/Sylius/sylius-ai-dev-tools) - Pack for Sylius Standard projects bundling the Sylius extension with the Symfony, Monolog, PHPUnit, and PHPStan extensions
+
+<!-- Want to add your e-commerce extension? Examples we'd love to see:
+- Shopware
+- Magento
 -->
 
 ### Frameworks
@@ -103,7 +117,6 @@ Community-built Symfony Mate extensions that add framework-specific, CMS-specifi
 <!-- Want to add your framework extension? Examples we'd love to see:
 - API Platform - REST/GraphQL API discovery and schema tools
 - EasyAdmin - Admin panel introspection and configuration
-- Sylius - E-commerce platform entity and workflow tools
 - Laravel - Cross-framework PHP support
 -->
 
