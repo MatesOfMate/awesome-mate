@@ -215,6 +215,7 @@ Agents that can run `vendor/bin/mate` in your project:
 - [Giving AI Assistants Eyes: Reflecting on My Symfony Mate Talk at SymfonyLive Berlin](https://sulu.io/blog/giving-ai-assistants-eyes-reflecting-on-my-symfony-mate-talk-at-symfonylive-berlin) - Post-conference reflection on the SymfonyLive Berlin 2026 Symfony Mate talk with key takeaways
 - [Symfony Mate: Give Your AI Assistant Eyes Into Your Application](https://github.com/wachterjohannes/symfony-mate-berlin) - SymfonyLive Berlin 2026 talk with slides and an N+1 profiler demo
 - [Giving AI Assistants Eyes: Highlights from the Symfony Mate Talk](https://www.linkedin.com/pulse/giving-ai-assistants-eyes-highlights-from-symfony-mate-wachter-yfuwe/) - LinkedIn article recapping the SymfonyLive Berlin Symfony Mate talk and key takeaways
+- [The Mate Journey: how an idea became a tool](https://johanneswachter.dev/blog/mate-journey/) - The origin story of Symfony Mate, from a moment of quiet rivalry at a conference to a prototype built on a train with no internet connection
 - [Kill the MCP](https://johanneswachter.dev/blog/kill-the-mcp/) - The argument for dropping Mate's MCP server in favor of a CLI plus Agent Skills
 - [Skills over MCP: shipping Symfony know-how with Mate](https://johanneswachter.dev/blog/skills-over-mcp/) - How Mate ships Symfony-specific judgment as Agent Skills, not just tools
 - [The last mile: distributing Agent Skills to real agents](https://johanneswachter.dev/blog/the-last-mile/) - What it actually takes to get a shipped skill discovered and used by a coding agent
